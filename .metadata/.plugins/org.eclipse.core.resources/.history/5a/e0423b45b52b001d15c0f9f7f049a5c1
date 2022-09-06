@@ -1,0 +1,53 @@
+/*
+ ============================================================================
+ Name        : Ejercicio.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int restarUno(int numUno, int numDos);
+void pedirNumero(void);
+
+int main(void) {
+	setbuf(stdout, NULL);
+
+	int numUno;
+	int numDos;
+	int resta;
+
+	numUno = pedirNumero();
+	numDos = pedirNumero();
+
+
+
+	return EXIT_SUCCESS;
+}
+
+void pedirNumero(void){
+
+	int PedirNumero;
+
+	printf("Ingrese un numero");
+		scanf("%d", &PedirNumero);
+
+
+
+}
+
+int restarUno(int numUno, int numDos){
+	int resultado;
+
+		pedirNumero();
+
+
+	resultado = numUno - numDos;
+
+	return resultado;
+
+}

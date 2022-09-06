@@ -1,0 +1,50 @@
+/*
+ ============================================================================
+ Name        : clase.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int solitiarElIngreso();
+float promediarNumeros(int numeroUno, int nummeroDos);
+
+int main(void) {
+	setbuf(stdout, NULL);
+
+	int numero;
+
+	numero = solitiarElIngreso();
+	printf("EL numero es %d", numero);
+
+
+	return EXIT_SUCCESS;
+}
+
+int solitiarElIngreso(){
+
+	int numero;
+
+	printf("Ingrese un numero");
+	scanf("%d", &numero);
+
+	return numero;
+}
+
+float promediarNumeros(int numeroUno, int nummeroDos){
+
+	float promedio;
+
+	promedio = ((float)numeroUno + nummeroDos / 2);
+
+
+
+}
+
+
+

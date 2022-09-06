@@ -1,0 +1,8 @@
+21:30:01 **** Incremental Build of configuration Debug for project Ejerciciodemrd ****
+Info: Internal Builder is used for build
+gcc -o Ejerciciodemrd.exe "src\\Ejerciciodemrd.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Ejerciciodemrd.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+21:30:01 Build Failed. 1 errors, 0 warnings. (took 444ms)
+

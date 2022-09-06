@@ -1,0 +1,68 @@
+/*
+ ============================================================================
+ Name        : ejercicio.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void mostrarNumero(int num);
+void mostrarNumeroFlotante(float numFlotante);
+
+int main(void) {
+	setbuf(stdout, NULL);
+
+	int numero;
+	float numFlotante;
+
+
+
+
+	mostrarNumero(numero);
+
+	mostrarNumeroFlotante(numFlotante);
+
+
+
+
+
+
+
+
+
+
+
+
+	return EXIT_SUCCESS;
+}
+
+
+void mostrarNumero(int numero){
+
+
+	do{
+		printf("Ingrese un numero entero");
+		scanf("%d", &numero);
+	}while( numero < 1 || numero > 20);
+
+}
+
+
+void mostrarNumeroFlotante(float numFlotante){
+
+
+	do{
+		printf("Ingrese un numero flotante");
+		scanf("%f", &numFlotante);
+		}while( numFlotante < 1 || numFlotante > 20);
+
+
+}
+
+
+

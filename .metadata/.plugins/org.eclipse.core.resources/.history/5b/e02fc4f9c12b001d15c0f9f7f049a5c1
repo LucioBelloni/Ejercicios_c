@@ -1,0 +1,23 @@
+/*
+	Belloni
+	Lucio
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int PedirNumero(int numUno, int numDOs);
+
+
+int main(void) {
+	setbuf(stdout, NULL);
+
+
+
+
+	return EXIT_SUCCESS;
+}
+
+int PedirNumero(int numUno, int numDOs){
+
+}

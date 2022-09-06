@@ -1,0 +1,44 @@
+/*
+ ============================================================================
+ Name        : Ejercicio.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void cargaDeTemperaturaEnCelsius(float* respt);
+
+
+
+
+
+
+int main(void) {
+	setbuf(stdout, NULL);
+
+	float respt;
+
+	cargaDeTemperaturaEnCelsius(&respt);
+
+	printf("La temperatura a Celsius es: &f", respt);
+
+	return EXIT_SUCCESS;
+}
+
+void cargaDeTemperaturaEnCelsius(float* respt){
+
+	float valorCelsius;
+
+	do{
+		printf("Ingrese una temperatura en Celsius ");
+		scanf("%f", &valorCelsius);
+
+	}while(valorCelsius < 0 || valorCelsius > 100 );
+
+
+}

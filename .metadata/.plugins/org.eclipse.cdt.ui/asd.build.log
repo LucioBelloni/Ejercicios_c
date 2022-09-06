@@ -1,0 +1,11 @@
+10:44:14 **** Rebuild of configuration Debug for project asd ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\asd.o" "..\\src\\asd.c" 
+..\src\asd.c: In function 'main':
+..\src\asd.c:21:6: warning: variable 'edadDeLaPersonaMasTiempo' set but not used [-Wunused-but-set-variable]
+  int edadDeLaPersonaMasTiempo;
+      ^~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o asd.exe "src\\asd.o" 
+
+10:44:15 Build Finished. 0 errors, 1 warnings. (took 1s.146ms)
+

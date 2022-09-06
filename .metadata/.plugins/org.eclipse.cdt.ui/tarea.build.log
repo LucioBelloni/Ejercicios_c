@@ -1,0 +1,9 @@
+16:49:31 **** Incremental Build of configuration Debug for project tarea ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tarea.o" "..\\src\\tarea.c" 
+gcc -o tarea.exe "src\\tarea.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file tarea.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+16:49:32 Build Failed. 1 errors, 0 warnings. (took 961ms)
+

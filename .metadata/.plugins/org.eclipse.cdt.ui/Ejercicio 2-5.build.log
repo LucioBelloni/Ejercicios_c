@@ -1,0 +1,11 @@
+12:14:21 **** Incremental Build of configuration Debug for project Ejercicio 2-5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio 2-5.o" "..\\src\\Ejercicio 2-5.c" 
+..\src\Ejercicio 2-5.c: In function 'main':
+..\src\Ejercicio 2-5.c:18:6: warning: variable 'edadDeLaPersonaMasTiempo' set but not used [-Wunused-but-set-variable]
+  int edadDeLaPersonaMasTiempo;
+      ^~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o "Ejercicio 2-5.exe" "src\\Ejercicio 2-5.o" 
+
+12:14:22 Build Finished. 0 errors, 1 warnings. (took 1s.160ms)
+

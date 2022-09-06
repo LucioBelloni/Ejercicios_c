@@ -1,0 +1,7 @@
+10:44:13 **** Rebuild of configuration Debug for project aasdas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aasdas.o" "..\\src\\aasdas.c" 
+gcc -o aasdas.exe "src\\aasdas.o" 
+
+10:44:14 Build Finished. 0 errors, 0 warnings. (took 726ms)
+

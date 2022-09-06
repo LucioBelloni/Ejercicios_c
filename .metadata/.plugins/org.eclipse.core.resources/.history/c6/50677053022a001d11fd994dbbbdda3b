@@ -1,0 +1,65 @@
+/*
+ ============================================================================
+ Name        : ejercicio.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int pedirNumero();  // Prototipo
+int sumar(int num1 , int num2); // parametros formales
+
+
+
+int main(void) {
+	setbuf(stdout, NULL);
+
+	int numero1;
+	int numero2;
+	int resultado;
+
+	//printf("Ingrese un numero ");
+	//scanf("%d", &num1);
+
+	numero1 = pedirNumero();
+	numero2 = pedirNumero();
+	resultado =	sumar(numero1 , numero2); // parametros actuales, reales o verdaderos
+
+	printf("\nLa suma es: %d ", resultado);
+
+
+	//printf("\nIngrese otro numero ");
+	//scanf("%d",&num2);
+
+	//suma = num1 + num2;
+
+	//printf("La suma es %d", suma);
+
+
+	return EXIT_SUCCESS;
+}
+
+int pedirNumero(){  // desarrollo de la funcion
+
+	int numero;
+
+	printf("\nIngrese un numero ");
+	scanf("%d", &numero);
+
+	return numero;
+
+
+}
+int sumar(int num1 , int num2){
+		int total;
+
+		total = num1 + num2;
+
+	return total;
+
+}

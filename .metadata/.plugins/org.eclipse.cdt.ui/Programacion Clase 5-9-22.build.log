@@ -1,0 +1,27 @@
+17:46:37 **** Incremental Build of configuration Debug for project Programacion Clase 5-9-22 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase 5-9.o" "..\\src\\Clase 5-9.c" 
+..\src\Clase 5-9.c: In function 'main':
+..\src\Clase 5-9.c:23:8: warning: unused variable 'salario' [-Wunused-variable]
+  float salario;
+        ^~~~~~~
+..\src\Clase 5-9.c:22:6: warning: unused variable 'edad' [-Wunused-variable]
+  int edad;
+      ^~~~
+..\src\Clase 5-9.c:21:6: warning: unused variable 'legajo' [-Wunused-variable]
+  int legajo;
+      ^~~~~~
+..\src\Clase 5-9.c: In function 'pedirDatos':
+..\src\Clase 5-9.c:82:6: warning: variable 'listaSalario' set but not used [-Wunused-but-set-variable]
+  int listaSalario[TAM];
+      ^~~~~~~~~~~~
+..\src\Clase 5-9.c:81:6: warning: variable 'listaEdad' set but not used [-Wunused-but-set-variable]
+  int listaEdad[TAM];
+      ^~~~~~~~~
+..\src\Clase 5-9.c:96:11: warning: 'retorno' is used uninitialized in this function [-Wuninitialized]
+   return  retorno;
+           ^~~~~~~
+gcc -o "Programacion Clase 5-9-22.exe" "src\\Clase 5-9.o" 
+
+17:46:37 Build Finished. 0 errors, 6 warnings. (took 438ms)
+

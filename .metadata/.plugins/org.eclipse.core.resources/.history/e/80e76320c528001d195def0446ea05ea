@@ -1,0 +1,42 @@
+/*
+ ============================================================================
+ Name        : ejercicio.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int ejecutarParNoPar(void);
+
+
+int main(void) {
+	setbuf(stdout, NULL);
+	int num;
+
+	printf("Ingrese un numero %d", &num);
+	scanf("%d", &num);
+	if(ejecutarParNoPar( num)== 1 ){
+
+
+
+	}
+
+
+	return EXIT_SUCCESS;
+}
+
+int ejecutarParNoPar(int num){
+
+
+	if((num % 2) ==  0){
+		return 1;
+	}else{
+		return 0;
+	}
+
+}

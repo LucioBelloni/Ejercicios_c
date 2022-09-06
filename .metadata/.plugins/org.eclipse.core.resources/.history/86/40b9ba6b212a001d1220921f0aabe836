@@ -1,0 +1,16 @@
+/*
+ * mostrarNum.h
+ *
+ *  Created on: 1 sep. 2022
+ *      Author: Gamers
+ */
+
+float pedirNumero(void); // prototipo
+
+
+#ifndef MOSTRARNUM_H_
+#define MOSTRARNUM_H_
+
+
+
+#endif /* MOSTRARNUM_H_ */

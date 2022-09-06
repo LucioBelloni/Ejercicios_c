@@ -1,0 +1,42 @@
+/*
+ ============================================================================
+ Name        : Ejercicio.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int sumar(int numUno, int numDos, int* respuesta);
+
+
+int main(void) {
+	setbuf(stdout, NULL);
+
+	printf("Ingrese un numero");
+
+
+	return EXIT_SUCCESS;
+}
+
+int sumar(int numUno, int numDos, int* respuesta){
+
+	int resultado;
+	int rtn;
+
+
+	resultado = numUno + numDos;
+
+	if(respuesta == 0 ){
+		rtn = 0;
+	}else{
+		rtn = -1;
+	}
+
+	*respuesta = resultado;
+		return rtn;
+}

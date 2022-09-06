@@ -1,0 +1,33 @@
+/*
+ ============================================================================
+ Name        : ejercicio.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int ejecutarParNoPar(void);
+
+
+int main(void) {
+	setbuf(stdout, NULL);
+
+
+
+	return EXIT_SUCCESS;
+}
+
+int ejecutarParNoPar(void){
+	int i;
+
+	if((i % 2) ==  0){
+				document.write("<br>  numero par: " + i)
+				contNumPar++;
+		}
+
+}
