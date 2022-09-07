@@ -10,9 +10,9 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include "sumar.h"
+#include "ingresoNumero.h"
 
-int pedirNumero(void);
-int sumar(int numUno, int numDos, int* respuesta);
 
 int main(void) {
 	setbuf(stdout, NULL);
@@ -37,31 +37,5 @@ int main(void) {
 	return EXIT_SUCCESS;
 }
 
-int sumar(int numUno, int numDos, int* respuesta){
 
-	int resultado;
-	int rtn;
-
-
-	resultado = numUno + numDos;
-
-	if(resultado != 0 ){
-		rtn = 0;
-	}else{
-		rtn = -1;
-	}
-
-	*respuesta = resultado;
-	return rtn;
-}
-
-int pedirNumero(void){
-
-		int numUno;
-
-		printf("Ingrese el numero");
-		scanf("%d",&numUno);
-
-	return numUno;
-}
 

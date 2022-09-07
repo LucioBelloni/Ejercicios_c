@@ -5,11 +5,9 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include "conversorDeTemperatura.h"
+#include "ingresoDeTemperatura.h"
 
-void cargaDeTemperaturaEnCelsius(float* respt);
-void cargaDeTemperaturaEnFahrenheit(float* respt);
-void conversionFahrenheitACelsius(float valorA, float* resp);
-void conversionCelsiusAFahrenheit(float valorA, float* resp);
 
 
 int main(void) {
@@ -33,52 +31,10 @@ int main(void) {
 	return EXIT_SUCCESS;
 }
 
-void cargaDeTemperaturaEnCelsius(float* respt){
-
-	float valorCelsius;
-
-	do{
-		printf("Ingrese una temperatura en Celsius ");
-		scanf("%f", &valorCelsius);
-		*respt = valorCelsius;
-
-	}while(valorCelsius < 0 || valorCelsius > 100 );
-
-}
-
-void cargaDeTemperaturaEnFahrenheit(float* respt){
-
-	float valorFahrenheit;
-
-		do{
-			printf("Ingrese una temperatura en Fahrenheit ");
-			scanf("%f", &valorFahrenheit);
-			*respt = valorFahrenheit;
-
-		}while(valorFahrenheit < 32 || valorFahrenheit > 212 );
-
-}
-
-void conversionFahrenheitACelsius(float valorA, float* resp){
-
-		float resultado;
-
-		resultado = (valorA - 32) * 5/9;
-
-		*resp  = resultado;
-
-}
 
 
-void conversionCelsiusAFahrenheit(float valorA, float* resp){
 
-		float resultado;
 
-		resultado = (valorA * 9/5 ) + 32;
-
-		*resp  = resultado;
-
-}
 
 
 

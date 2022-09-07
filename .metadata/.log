@@ -1540,3 +1540,6 @@ Caused by: java.io.FileNotFoundException: C:\Program Files\Git\mingw64\share\git
 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
 	at org.eclipse.swt.graphics.ImageLoader.load(ImageLoader.java:181)
 	... 76 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-06 20:59:58.318
+!MESSAGE Indexed 'Ejercicio 4-1' (1 sources, 10 headers) in 0.161 sec: 875 declarations; 1,698 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
